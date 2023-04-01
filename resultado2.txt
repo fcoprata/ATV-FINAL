@@ -1,0 +1,2 @@
+Quantidade de multas: 2
+Somatorio das multas: 450.0

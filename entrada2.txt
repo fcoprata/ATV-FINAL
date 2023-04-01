@@ -1,0 +1,4 @@
+IPVA;500.50;IPVA 2023;30/06/2023
+IPVA;250.00;IPVA 2023;31/07/2023
+Multa;150.00;Excesso de velocidade;25/03/2023
+Multa;300.00;Estacionar em local proibido;15/02/2023

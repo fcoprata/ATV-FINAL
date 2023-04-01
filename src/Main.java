@@ -58,6 +58,7 @@ public class Main {
                 if (valores[0].equals("IPVA")) {
                     IPVA ipva = new IPVA(Double.parseDouble(valores[1]), valores[2], valores[3]);
                     entidades2.add(ipva);
+
                 } else if (valores[0].equals("Multa")) {
                     Multa multa = new Multa(Double.parseDouble(valores[1]), valores[2], valores[3]);
                     entidades2.add(multa);
@@ -75,10 +76,10 @@ public class Main {
                             valorTotalMultas += multa.getValor();
                         }
                     }
-                    // escrever a saída no arquivo resultado1.txt
+                    // escrever a saída no arquivo resultado2.txt
                     FileWriter writer = new FileWriter("resultado2.txt");
                     writer.write("Quantidade de multas: " + contadorMulta + "\n");
-                    writer.write("Somatorio das multas: " + valorTotalMultas);
+                    writer.write("Somatorio das multas: " + valorTotalMultas + "\n");
                     writer.close();
                 }
             }
